@@ -1,0 +1,13 @@
+.header {
+    padding: $padding-big;
+    grid-column: 1/ -1;
+    display: flex;
+    justify-content: space-between;
+    height: 18vh;
+
+    &__paragraph {
+        color: $color-desat-blue;
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+}

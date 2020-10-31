@@ -1,0 +1,31 @@
+.stats {
+    margin-top: 2.3rem;
+}
+
+.social-icons {
+    display: inline-block;
+    margin-right: .8rem;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem; 
+}
+
+.svg-down {
+    background-color: orchid;
+}
+
+.overview {
+    padding: $padding-big;
+}
+
+.engagement-icon {
+    width: 77%;
+    display: block;
+    margin-bottom: 2rem;
+}
+

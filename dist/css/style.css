@@ -11,17 +11,9 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    font-family: 'Inter', sans-serif;
-}
 
-.wrapper {
-    width: 100%;
-}
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 100%;
-    width: 100%;
+/* Desktop view */
+@media screen and (max-width: 1440px) {
+
 }

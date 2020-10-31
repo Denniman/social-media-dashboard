@@ -1,0 +1,49 @@
+.heading-primary {
+    font-size: 2rem;
+    color: $color-white;
+    
+}
+
+.heading-tertiary {
+    color: $color-white;
+}
+
+.paragraph-primary {
+    color: $color-desat-blue;
+    letter-spacing: .65rem;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.paragraph-secondary {
+    color: $color-desat-blue;
+}
+
+.paragraph-secondary-2 {
+    color: $color-desat-blue;
+    font-size: 1.24rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.heading-1 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: $color-white;
+}
+
+.heading-3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: $color-white; 
+}
+
+.small-primary {
+    color: $lime-green;
+    font-weight: 700;
+}
+.small-primary-red {
+    color: $bright-red;
+    font-weight: 700;
+}
