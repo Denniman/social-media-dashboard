@@ -1,0 +1,30 @@
+.checkbox {
+    position: relative;
+    width: 4.3rem;
+    height: 2.2rem;
+    background-image: linear-gradient(to right, $color-toggle-primary, $color-toggle-secondary);
+    appearance: none;
+    outline: none;
+    border-radius: 2rem;
+    transition: .5s;
+
+
+}
+
+.checkbox::before {
+    content: "";
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    top: .35rem;
+    left: .4rem;
+    background-color: $color-dark-desat-blue;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    transition: .5s;
+}
+
+.checkbox:checked::before {
+    left: 2.5rem;
+}
