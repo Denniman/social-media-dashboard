@@ -1,0 +1,10 @@
+.darktheme-bg {
+    background-color: $color-dark-primary;
+    color: $color-white;
+    font-family: $font-primary;
+
+    &-card {
+        background-color: $color-dark-desat-blue;
+        font-family: inherit;
+    }
+}

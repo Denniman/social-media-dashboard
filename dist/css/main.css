@@ -26,11 +26,12 @@ body {
 
 .heading-primary {
   font-size: 2rem;
-  color: #fff;
+  color: #1e202a;
 }
 
 .heading-tertiary {
   color: #fff;
+  color: #1e202a;
 }
 
 .paragraph-primary {
@@ -138,6 +139,7 @@ body {
       grid-template-columns: repeat(auto-fit, 35vh);
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  grid-gap: 1rem;
 }
 
 .grid-container .row-1__col {
@@ -292,5 +294,16 @@ body {
 
 .checkbox:checked::before {
   left: 2.5rem;
+}
+
+.darktheme-bg {
+  background-color: #1e202a;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+.darktheme-bg-card {
+  background-color: #252a41;
+  font-family: inherit;
 }
 /*# sourceMappingURL=main.css.map */

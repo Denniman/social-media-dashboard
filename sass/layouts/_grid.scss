@@ -4,10 +4,10 @@
 
 
     .row-1 {
-        // background-color: orchid;
         display: grid;
         grid-template-columns: repeat(auto-fit, 35vh);
         justify-content: space-around;
+        grid-gap: 1rem;
 
         &__col {
             background-color: $color-dark-desat-blue;

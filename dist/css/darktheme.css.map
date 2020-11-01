@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../sass/layouts/darktheme.scss"
+    ],
+    "names": [],
+    "file": "darktheme.css"
+}
