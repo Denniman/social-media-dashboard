@@ -1,10 +1,54 @@
-.darktheme-bg {
+body.darktheme-bg {
     background-color: $color-dark-primary;
+    background-color: #1D2029;
     color: $color-white;
     font-family: $font-primary;
+    transition: background 0.3s linear; 
 
-    &-card {
+
+    .row-1__col {
         background-color: $color-dark-desat-blue;
-        font-family: inherit;
+        background-color: #252B43;
+        transition: background 0.3s linear; 
+
+        
+        &:hover {
+            background-color: #333A56;
+            cursor: pointer;
+        }
+
     }
+
+    .page-engagements-1_col {
+        background-color: $color-dark-desat-blue;
+        transition: background .3s linear;
+
+        &:hover {
+            background-color: #333A56;
+            cursor: pointer;
+        }
+    }
+
+    .heading-primary-1, .heading-primary-2 {
+        color: $color-white;
+    }
+    
+   
+
+    .heading-1 {
+        color: $color-white;
+    }
+    
+    .heading-3 {
+        color: $color-white; 
+    }
+
+    .checkbox::before {
+        background-color: $color-white;
+    }
+
+    .checkbox:checked::before {
+        left: 2.5rem;
+    }
+
 }

@@ -20,18 +20,15 @@ body {
   height: 70rem;
 }
 
-.wrapper {
-  background-color: #1e202a;
-}
-
-.heading-primary {
+.heading-primary-1 {
   font-size: 2rem;
-  color: #1e202a;
+  font-weight: 700;
 }
 
-.heading-tertiary {
-  color: #fff;
-  color: #1e202a;
+.heading-primary-2 {
+  font-size: 2rem;
+  color: #8b97c6;
+  font-weight: 700;
 }
 
 .paragraph-primary {
@@ -56,19 +53,20 @@ body {
 .heading-1 {
   font-size: 5rem;
   font-weight: 700;
-  color: #fff;
+  color: #1f212e;
 }
 
 .heading-3 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #fff;
+  color: #1f212e;
 }
 
 .heading-tertiary {
   display: inline;
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 700;
+  color: #8b97c6;
 }
 
 .small-primary {
@@ -143,15 +141,16 @@ body {
 }
 
 .grid-container .row-1__col {
-  background-color: #252a41;
+  background-color: #f5f7ff;
+  background-color: #F0F3FA;
   text-align: center;
   height: 28vh;
   border-radius: 2px;
 }
 
 .grid-container .row-1__col:hover {
-  background-color: #252a41;
-  background-color: #63687e;
+  background-color: #8b97c6;
+  background-color: #E1E3F0;
   cursor: pointer;
 }
 
@@ -242,10 +241,17 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #252a41;
+  background-color: #f5f7ff;
+  background-color: #F0F3FA;
   padding: 1.5rem 1.5rem;
   height: 15vh;
   border-radius: 2px;
+}
+
+.page-engagements-1_col:hover {
+  background-color: #8b97c6;
+  background-color: #E1E3F0;
+  cursor: pointer;
 }
 
 .page-engagements-2 {
@@ -296,14 +302,55 @@ body {
   left: 2.5rem;
 }
 
-.darktheme-bg {
+body.darktheme-bg {
   background-color: #1e202a;
+  background-color: #1D2029;
   color: #fff;
   font-family: "Inter", sans-serif;
+  -webkit-transition: background 0.3s linear;
+  transition: background 0.3s linear;
 }
 
-.darktheme-bg-card {
+body.darktheme-bg .row-1__col {
   background-color: #252a41;
-  font-family: inherit;
+  background-color: #252B43;
+  -webkit-transition: background 0.3s linear;
+  transition: background 0.3s linear;
+}
+
+body.darktheme-bg .row-1__col:hover {
+  background-color: #333A56;
+  cursor: pointer;
+}
+
+body.darktheme-bg .page-engagements-1_col {
+  background-color: #252a41;
+  -webkit-transition: background .3s linear;
+  transition: background .3s linear;
+}
+
+body.darktheme-bg .page-engagements-1_col:hover {
+  background-color: #333A56;
+  cursor: pointer;
+}
+
+body.darktheme-bg .heading-primary-1, body.darktheme-bg .heading-primary-2 {
+  color: #fff;
+}
+
+body.darktheme-bg .heading-1 {
+  color: #fff;
+}
+
+body.darktheme-bg .heading-3 {
+  color: #fff;
+}
+
+body.darktheme-bg .checkbox::before {
+  background-color: #fff;
+}
+
+body.darktheme-bg .checkbox:checked::before {
+  left: 2.5rem;
 }
 /*# sourceMappingURL=main.css.map */

@@ -10,15 +10,18 @@
         grid-gap: 1rem;
 
         &__col {
-            background-color: $color-dark-desat-blue;
+            // background-color: $color-dark-desat-blue;
             // background-color: $card-bg-color;
+            background-color: $color-pale-blue;
+            background-color: #F0F3FA;
             text-align: center;
             height: 28vh;
             border-radius: 2px;
 
             &:hover {
-                background-color: $color-dark-desat-blue;
-                background-color: $color-dark-gray-blue;
+                // background-color: $color-dark-desat-blue;
+                background-color: $color-light-1;
+                background-color: #E1E3F0;
                 cursor: pointer;
             }
 
