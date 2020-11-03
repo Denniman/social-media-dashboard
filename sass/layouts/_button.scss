@@ -8,8 +8,6 @@
     border-radius: 2rem;
     transition: .5s;
     cursor: pointer;
-
-
 }
 
 .checkbox::before {
@@ -20,7 +18,7 @@
     border-radius: 50%;
     top: .35rem;
     left: .4rem;
-    background-color: $color-dark-desat-blue;
+    background-color: $color-white;
     transform: scale(1.1);
     box-shadow: 0 2px 5px rgba(0,0,0,.2);
     transition: .5s;
