@@ -115,8 +115,6 @@ body {
 
 .engagement-icon {
   width: 50%;
-  display: block;
-  margin-bottom: 2rem;
 }
 
 .media-toggle {
@@ -132,6 +130,26 @@ body {
 
 .pr-1 {
   padding-right: 1rem;
+}
+
+.overviews__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stat-flow {
+  margin-top: 2rem;
 }
 
 .grid-container {

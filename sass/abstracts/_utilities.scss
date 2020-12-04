@@ -26,8 +26,6 @@
 
 .engagement-icon {
     width: 50%;
-    display: block;
-    margin-bottom: 2rem;
 }
 
 .media-toggle {
@@ -40,3 +38,12 @@
     padding-right: 1rem;
 }
 
+.overviews__icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.stat-flow {
+ margin-top: 2rem;
+}
