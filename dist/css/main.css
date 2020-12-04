@@ -110,7 +110,7 @@ body {
 }
 
 .overview {
-  padding: 3rem 7rem;
+  padding: 3rem 9rem;
 }
 
 .engagement-icon {
@@ -128,6 +128,14 @@ body {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.pr-1 {
+  padding-right: 1rem;
+}
+
+.grid-container {
+  padding: 0rem 4rem;
 }
 
 .grid-container .row-1 {
@@ -199,7 +207,7 @@ body {
 }
 
 .header {
-  padding: 3rem 7rem;
+  padding: 3rem 9rem;
   grid-column: 1/ -1;
   display: -webkit-box;
   display: -ms-flexbox;
