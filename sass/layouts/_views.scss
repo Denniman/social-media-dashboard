@@ -14,6 +14,7 @@
         padding: 1.5rem 1.5rem;
         height: 15vh;
         border-radius: 2px;
+        transition: background .3s linear;
 
         &:hover {
             background-color: $color-light-1;
