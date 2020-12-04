@@ -15,10 +15,6 @@ if(getDarkMode === 'enabled') {
 }
 
 
-
-
-
-
 checkbox.addEventListener('change', () => {
     getDarkMode = localStorage.getItem('darkMode')
 

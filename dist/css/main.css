@@ -17,7 +17,6 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-weight: 300;
-  height: 70rem;
 }
 
 .heading-primary-1 {
@@ -86,6 +85,7 @@ body {
 .social-icons {
   display: inline-block;
   margin-right: .8rem;
+  width: 7%;
 }
 
 .icon-container {
